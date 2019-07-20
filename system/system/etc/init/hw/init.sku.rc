@@ -1,0 +1,21 @@
+on fs
+    setprop ro.wifi.channels 11
+    setprop ro.build.product PNX
+    setprop ro.product.device PNX_sprout
+    setprop ro.product.name Phoenix_00WW
+    setprop ro.product.brand Nokia
+    setprop ro.product.board SDM710
+    setprop ro.product.model.num 00WW
+    setprop ro.product.model "Nokia 8.1"
+    setprop ro.config.dbgcfgtool_config 0
+    setprop ro.com.android.mobiledata true
+    setprop ro.product.nickname "Nokia 8.1"
+    setprop ro.telephony.default_network 22
+    setprop ro.com.android.dataroaming false
+    setprop ro.product.manufacturer "HMD Global"
+    setprop setupwizard.feature.deferred_snooze_allow_never true
+on post-fs
+    setprop media.settings.xml product/etc/media_profiles_vendor.xml
+on fs
+	setprop ro.build.fingerprint Nokia/Phoenix_00WW/PNX_sprout:10/QKQ1.190406.002/00WW_4_011:user/release-keys
+	setprop ro.build.description "Phoenix_00WW-user 10 QKQ1.190406.002 00WW_4_011 release-keys"

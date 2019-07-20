@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!--
+This XML file declares which system apps should be exempted from the hidden API blacklisting, i.e.
+which apps should be allowed to access the entire private API.
+-->
+
+<config>
+  <hidden-api-whitelisted-app package="com.evenwell.DbgCfgTool" />
+  <hidden-api-whitelisted-app package="com.evenwell.SetupWizard" />
+  <hidden-api-whitelisted-app package="com.android.providers.telephony" />
+  <hidden-api-whitelisted-app package="com.hmdglobal.datago" />
+  <hidden-api-whitelisted-app package="com.android.providers.calendar" />
+  <hidden-api-whitelisted-app package="com.nbc.android.screenrecord" />
+  <hidden-api-whitelisted-app package="com.android.providers.media" />
+  <hidden-api-whitelisted-app package="com.evenwell.phone" />
+  <hidden-api-whitelisted-app package="com.evenwell.permissiondetection" />
+  <hidden-api-whitelisted-app package="com.android.wallpapercropper" />
+  <hidden-api-whitelisted-app package="com.quicinc.cne.CNEService" />
+  <hidden-api-whitelisted-app package="com.android.calendar" />
+  <hidden-api-whitelisted-app package="com.android.documentsui" />
+  <hidden-api-whitelisted-app package="com.evenwell.pushagent" />
+  <hidden-api-whitelisted-app package="com.android.externalstorage" />
+  <hidden-api-whitelisted-app package="com.android.htmlviewer" />
+  <hidden-api-whitelisted-app package="com.android.companiondevicemanager" />
+  <hidden-api-whitelisted-app package="com.android.mms.service" />
+  <hidden-api-whitelisted-app package="com.android.providers.downloads" />
+  <hidden-api-whitelisted-app package="com.android.systemui" />
+  <hidden-api-whitelisted-app package="com.evenwell.bboxsbox" />
+  <hidden-api-whitelisted-app package="com.evenwell.partnerbrowsercustomizations" />
+  <hidden-api-whitelisted-app package="com.android.server.telecom" />
+  <hidden-api-whitelisted-app package="com.evenwell.weatherservice" />
+  <hidden-api-whitelisted-app package="com.evenwell.factorywizard" />
+  <hidden-api-whitelisted-app package="com.android.defcontainer" />
+  <hidden-api-whitelisted-app package="com.evenwell.retaildemoapp" />
+  <hidden-api-whitelisted-app package="com.evenwell.PowerMonitor" />
+  <hidden-api-whitelisted-app package="com.android.providers.downloads.ui" />
+  <hidden-api-whitelisted-app package="com.android.vending" />
+  <hidden-api-whitelisted-app package="com.android.pacprocessor" />
+  <hidden-api-whitelisted-app package="com.android.simappdialog" />
+  <hidden-api-whitelisted-app package="com.android.settings" />
+  <hidden-api-whitelisted-app package="com.evenwell.foxlauncher.partner" />
+  <hidden-api-whitelisted-app package="com.nbc.datatransfer" />
+  <hidden-api-whitelisted-app package="com.android.retaildemo" />
+  <hidden-api-whitelisted-app package="com.android.certinstaller" />
+  <hidden-api-whitelisted-app package="com.android.carrierconfig" />
+  <hidden-api-whitelisted-app package="com.wapi.wapicertmanage" />
+  <hidden-api-whitelisted-app package="com.android.cellbroadcastreceiver" />
+  <hidden-api-whitelisted-app package="com.android.mms" />
+  <hidden-api-whitelisted-app package="com.android.egg" />
+  <hidden-api-whitelisted-app package="com.android.mtp" />
+  <hidden-api-whitelisted-app package="com.android.nfc" />
+  <hidden-api-whitelisted-app package="com.android.stk" />
+  <hidden-api-whitelisted-app package="com.android.launcher3" />
+  <hidden-api-whitelisted-app package="com.android.backupconfirm" />
+  <hidden-api-whitelisted-app package="com.hmdglobal.camera2" />
+  <hidden-api-whitelisted-app package="com.evenwell.telecom.data" />
+  <hidden-api-whitelisted-app package="com.android.statementservice" />
+  <hidden-api-whitelisted-app package="com.evenwell.fqc" />
+  <hidden-api-whitelisted-app package="com.evenwell.nps" />
+  <hidden-api-whitelisted-app package="com.evenwell.bokeheditor" />
+  <hidden-api-whitelisted-app package="com.android.settings.intelligence" />
+  <hidden-api-whitelisted-app package="com.evenwell.stbmonitor.data" />
+  <hidden-api-whitelisted-app package="com.fih.infodisplay" />
+  <hidden-api-whitelisted-app package="com.android.providers.settings" />
+  <hidden-api-whitelisted-app package="com.android.sharedstoragebackup" />
+  <hidden-api-whitelisted-app package="com.evenwell.autoregistration" />
+  <hidden-api-whitelisted-app package="com.android.printspooler" />
+  <hidden-api-whitelisted-app package="com.evenwell.legalterm" />
+  <hidden-api-whitelisted-app package="com.evenwell.settings.data" />
+  <hidden-api-whitelisted-app package="com.android.dreams.basic" />
+  <hidden-api-whitelisted-app package="com.android.se" />
+  <hidden-api-whitelisted-app package="com.android.inputdevices" />
+  <hidden-api-whitelisted-app package="com.evenwell.OTAUpdate" />
+  <hidden-api-whitelisted-app package="com.android.bips" />
+  <hidden-api-whitelisted-app package="com.evenwell.stbmonitor" />
+  <hidden-api-whitelisted-app package="com.evenwell.weather" />
+  <hidden-api-whitelisted-app package="com.android.musicfx" />
+  <hidden-api-whitelisted-app package="com.evenwell.batteryprotect" />
+  <hidden-api-whitelisted-app package="com.evenwell.providers.weather" />
+  <hidden-api-whitelisted-app package="com.evenwell.AprUploadService" />
+  <hidden-api-whitelisted-app package="com.evenwell.UsageStatsLogReceiver.data" />
+  <hidden-api-whitelisted-app package="com.evenwell.dataagent" />
+  <hidden-api-whitelisted-app package="com.android.facelock" />
+  <hidden-api-whitelisted-app package="com.android.keychain" />
+  <hidden-api-whitelisted-app package="com.android.chrome" />
+  <hidden-api-whitelisted-app package="com.android.dialer" />
+  <hidden-api-whitelisted-app package="com.android.calllogbackup" />
+  <hidden-api-whitelisted-app package="com.evenwell.bboxsbox.app" />
+  <hidden-api-whitelisted-app package="com.evenwell.whitebalance" />
+  <hidden-api-whitelisted-app package="com.android.carrierdefaultapp" />
+  <hidden-api-whitelisted-app package="com.evenwell.SettingsUtils" />
+  <hidden-api-whitelisted-app package="com.android.proxyhandler" />
+  <hidden-api-whitelisted-app package="android.autoinstalls.config.Nokia.AOP" />
+  <hidden-api-whitelisted-app package="com.evenwell.fmradio" />
+  <hidden-api-whitelisted-app package="com.android.carrierconfig.btl" />
+  <hidden-api-whitelisted-app package="com.android.phone" />
+  <hidden-api-whitelisted-app package="com.android.managedprovisioning" />
+  <hidden-api-whitelisted-app package="com.evenwell.powersaving.g3" />
+  <hidden-api-whitelisted-app package="com.android.dreams.phototable" />
+  <hidden-api-whitelisted-app package="com.android.providers.partnerbookmarks" />
+  <hidden-api-whitelisted-app package="com.android.smspush" />
+  <hidden-api-whitelisted-app package="com.android.wallpaper.livepicker" />
+  <hidden-api-whitelisted-app package="com.evenwell.custmanager.data" />
+  <hidden-api-whitelisted-app package="com.foxconn.ifaa" />
+  <hidden-api-whitelisted-app package="com.evenwell.CPClient" />
+  <hidden-api-whitelisted-app package="com.evenwell.DeviceMonitorControl" />
+  <hidden-api-whitelisted-app package="com.evenwell.AprUploadService.data" />
+  <hidden-api-whitelisted-app package="com.evenwell.custmanager" />
+  <hidden-api-whitelisted-app package="com.android.storagemanager" />
+  <hidden-api-whitelisted-app package="com.android.bookmarkprovider" />
+  <hidden-api-whitelisted-app package="com.android.cts.ctsshim" />
+  <hidden-api-whitelisted-app package="com.android.vpndialogs" />
+  <hidden-api-whitelisted-app package="com.android.shell" />
+  <hidden-api-whitelisted-app package="com.android.wallpaperbackup" />
+  <hidden-api-whitelisted-app package="com.android.providers.blockednumber" />
+  <hidden-api-whitelisted-app package="com.evenwell.DeviceMonitorControl.data" />
+  <hidden-api-whitelisted-app package="com.android.providers.userdictionary" />
+  <hidden-api-whitelisted-app package="com.android.emergency" />
+  <hidden-api-whitelisted-app package="com.android.location.fused" />
+  <hidden-api-whitelisted-app package="com.android.bluetoothmidiservice" />
+  <hidden-api-whitelisted-app package="com.evenwell.customerfeedback" />
+  <hidden-api-whitelisted-app package="com.android.traceur" />
+  <hidden-api-whitelisted-app package="com.android.bluetooth" />
+  <hidden-api-whitelisted-app package="com.android.providers.contacts" />
+  <hidden-api-whitelisted-app package="com.evenwell.mappartner" />
+  <hidden-api-whitelisted-app package="com.android.captiveportallogin" />
+  <hidden-api-whitelisted-app package="com.google.android.inputmethod.latin" />
+  <hidden-api-whitelisted-app package="com.google.android.apps.restore" />
+  <hidden-api-whitelisted-app package="com.evenwell.gallery" />
+  <hidden-api-whitelisted-app package="com.nbc.allinonescanner" />
+  <hidden-api-whitelisted-app package="com.android.cts.priv.ctsshim" />
+  <hidden-api-whitelisted-app package="com.android.internal.display.cutout.emulation.corner" />
+  <hidden-api-whitelisted-app package="com.android.internal.display.cutout.emulation.double" />
+  <hidden-api-whitelisted-app package="com.google.android.ext.services" />
+  <hidden-api-whitelisted-app package="com.nbc.gameassistant" />
+  <hidden-api-whitelisted-app package="com.evenwell.dialer" />
+  <hidden-api-whitelisted-app package="com.qiyi.video" />
+  <hidden-api-whitelisted-app package="com.google.android.onetimeinitializer" />
+  <hidden-api-whitelisted-app package="com.google.android.ext.shared" />
+  <hidden-api-whitelisted-app package="com.evenwell.spamdetector" />
+  <hidden-api-whitelisted-app package="com.hmdglobal.appstore" />
+  <hidden-api-whitelisted-app package="com.evenwell.smartboost" />
+  <hidden-api-whitelisted-app package="com.nbc.filemanager" />
+  <hidden-api-whitelisted-app package="com.redteamobile.virtual.softsim" />
+  <hidden-api-whitelisted-app package="com.evenwell.hyperclip" />
+  <hidden-api-whitelisted-app package="com.evenwell.firewall" />
+  <hidden-api-whitelisted-app package="com.nbc.smartcard.geek" />
+  <hidden-api-whitelisted-app package="com.evenwell.gmsnetworkmonitor" />
+  <hidden-api-whitelisted-app package="com.nbc.intellirecog" />
+  <hidden-api-whitelisted-app package="com.nbc.screenshotplus" />
+  <hidden-api-whitelisted-app package="com.nbc.quickstart" />
+  <hidden-api-whitelisted-app package="com.evenwell.dataspeedindicator" />
+  <hidden-api-whitelisted-app package="com.evenwell.voiceco" />
+  <hidden-api-whitelisted-app package="com.nbc.willcloud.athena.notification" />
+  <hidden-api-whitelisted-app package="com.android.browser" />
+  <hidden-api-whitelisted-app package="com.google.android.configupdater" />
+  <hidden-api-whitelisted-app package="com.nbc.music" />
+  <hidden-api-whitelisted-app package="com.evenwell.gallerymanagerservice" />
+  <hidden-api-whitelisted-app package="com.evenwell.cleaner" />
+  <hidden-api-whitelisted-app package="com.nbc.AccountProxy" />
+  <hidden-api-whitelisted-app package="com.tencent.mm" />
+  <hidden-api-whitelisted-app package="com.evenwell.backuptool" />
+  <hidden-api-whitelisted-app package="com.evenwell.android.memo" />
+  <hidden-api-whitelisted-app package="com.android.contacts" />
+  <hidden-api-whitelisted-app package="com.redteamobile.global.roaming" />
+  <hidden-api-whitelisted-app package="icontheme.nbc.com.simplicity" />
+  <hidden-api-whitelisted-app package="com.nbc.willcloud.themecopy" />
+  <hidden-api-whitelisted-app package="com.evenwell.systemdashboard.mobileassistant" />
+  <hidden-api-whitelisted-app package="com.nbc.smartcard.commutetraffic" />
+  <hidden-api-whitelisted-app package="com.evenwell.intelligent.suggestion" />
+  <hidden-api-whitelisted-app package="com.android.systemui.theme.dark" />
+  <hidden-api-whitelisted-app package="com.nbc.willcloud.themecenter" />
+  <hidden-api-whitelisted-app package="com.nbc.apptwins" />
+  <hidden-api-whitelisted-app package="com.evenwell.settings.intelligence.data" />
+  <hidden-api-whitelisted-app package="com.evenwell.voicenote" />
+  <hidden-api-whitelisted-app package="com.nbc.willcloud.athenainterceptor" />
+  <hidden-api-whitelisted-app package="com.google.android.webview" />
+  <hidden-api-whitelisted-app package="com.nbc.smartcard.notewidget" />
+  <hidden-api-whitelisted-app package="com.google.android.syncadapters.contacts" />
+  <hidden-api-whitelisted-app package="com.google.android.gms" />
+  <hidden-api-whitelisted-app package="com.google.android.gsf" />
+  <hidden-api-whitelisted-app package="com.google.android.partnersetup" />
+  <hidden-api-whitelisted-app package="com.nbc.smartcard.smartlife" />
+  <hidden-api-whitelisted-app package="com.android.packageinstaller" />
+  <hidden-api-whitelisted-app package="com.android.inputmethod.latin" />
+  <hidden-api-whitelisted-app package="com.google.android.printservice.recommendation" />
+  <hidden-api-whitelisted-app package="com.android.networksettings" />
+  <hidden-api-whitelisted-app package="com.nbc.smartcard.fitness.provider" />
+  <hidden-api-whitelisted-app package="com.android.apps.tag" />
+  <hidden-api-whitelisted-app package="com.google.android.backuptransport" />
+  <hidden-api-whitelisted-app package="com.sina.weibo" />
+  <hidden-api-whitelisted-app package="com.google.android.inputmethod.pinyin" />
+  <hidden-api-whitelisted-app package="com.evenwell.permissioncontrol" />
+  <hidden-api-whitelisted-app package="com.evenwell.managedprovisioning" />
+  <hidden-api-whitelisted-app package="com.evenwell.viruscan" />
+  <hidden-api-whitelisted-app package="com.evenwell.faceplusrecognition" />
+  <hidden-api-whitelisted-app package="com.android.calculator2" />
+  <hidden-api-whitelisted-app package="com.evenwell.deskclock" />
+  <hidden-api-whitelisted-app package="com.autonavi.minimap" />
+  <hidden-api-whitelisted-app package="com.evenwell.memorycleaner" />
+  <hidden-api-whitelisted-app package="com.nbc.AIFloatingTouch" />
+  <hidden-api-whitelisted-app package="com.android.deskclock" />
+  <hidden-api-whitelisted-app package="com.tencent.android.location" />
+  <hidden-api-whitelisted-app package="com.evenwell.calculator2" />
+  <hidden-api-whitelisted-app package="com.nbc.willcloud.themestore" />
+  <hidden-api-whitelisted-app package="com.eg.android.AlipayGphone" />
+</config>

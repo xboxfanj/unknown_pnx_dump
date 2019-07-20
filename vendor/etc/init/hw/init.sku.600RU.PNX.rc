@@ -1,0 +1,2 @@
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/Phoenix_00RU/PNXN:10/QKQ1.190406.002/00WW_4_011:user/release-keys

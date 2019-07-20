@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This whitelist is created by AutoPack Tool. -->
+<config>
+    <hidden-api-whitelisted-app package="android.autoinstalls.config.Nokia.AOP" />
+    <hidden-api-whitelisted-app package="com.google.android.apps.turbo" />
+    <hidden-api-whitelisted-app package="com.google.android.apps.wellbeing" />
+    <hidden-api-whitelisted-app package="com.google.android.apps.wallpaper" />
+    <hidden-api-whitelisted-app package="com.evenwell.betaprogram" />
+    <hidden-api-whitelisted-app package="com.evenwell.foxlauncher.partner" />
+    <hidden-api-whitelisted-app package="com.evenwell.AprUploadService" />
+    <hidden-api-whitelisted-app package="com.evenwell.DbgCfgTool" />
+    <hidden-api-whitelisted-app package="com.evenwell.customerfeedback" />
+</config>

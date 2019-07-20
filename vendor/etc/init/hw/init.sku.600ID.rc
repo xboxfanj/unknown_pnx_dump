@@ -1,0 +1,6 @@
+on fs
+    setprop ro.product.first_api_level 27
+    setprop ro.product.vendor.device PNX_sprout
+    setprop ro.product.vendor.name Phoenix_00WW
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/Phoenix_00WW/PNX_sprout:10/QKQ1.190406.002/00WW_4_011:user/release-keys

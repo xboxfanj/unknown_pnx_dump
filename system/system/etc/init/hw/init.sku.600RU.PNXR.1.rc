@@ -1,0 +1,11 @@
+on fs
+    setprop ro.product.model.display TA-1128
+on fs
+    setprop ro.product.device  PNXN
+    setprop ro.product.locale ru-RU
+    setprop ro.product.name Phoenix_00RU
+    setprop ro.com.google.clientidbase android-hmd
+
+on fs
+	setprop ro.build.fingerprint Nokia/Phoenix_00RU/PNXN:10/QKQ1.190406.002/00WW_4_011:user/release-keys
+	setprop ro.build.description "Phoenix_00RU-user 10 QKQ1.190406.002 00WW_4_011 release-keys"

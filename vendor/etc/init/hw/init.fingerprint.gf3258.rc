@@ -1,0 +1,33 @@
+on boot
+    setprop sys.fp.navigation.enable 1
+
+on fs
+    chown system system /dev/goodix_fp
+    chmod 666 /dev/goodix_fp
+
+setprop ro.hardware.fingerprint gxfp3258_pnx
+
+service fqcfingerprint /vendor/bin/fqcfingerprint
+    user system
+    oneshot
+    disabled
+
+on property:vendor.sys.fqcfingerprint=1
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=2
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=3
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=4
+    start fqcfingerprint
+
+on property:vendor.gxfp.cid=*
+    setprop sys.fp.firmware.version  Gx-${vendor.gxfp.cid}-${vendor.gxfp.version}
+
+on post-fs-data
+    mkdir /data/system/users/0/fpdata 0700 system system
+    restorecon_recursive /data/system/users/0/fpdata
+
