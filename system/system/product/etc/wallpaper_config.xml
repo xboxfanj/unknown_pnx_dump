@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Wallpaper>
+    <project name="default">
+        <sku id="default">
+            <item name="ACTION_PARTNER_CUSTOMIZATION">com.evenwell.foxlauncher.action.PARTNER_CUSTOMIZATION</item>
+            <mapping-wallpaper type="propertyWallpaper" value="S">blueice</mapping-wallpaper><!-- Silver -->
+            <mapping-wallpaper type="propertyWallpaper" value="B">hothero</mapping-wallpaper><!-- Dark -->
+        </sku>
+    </project>
+</Wallpaper>

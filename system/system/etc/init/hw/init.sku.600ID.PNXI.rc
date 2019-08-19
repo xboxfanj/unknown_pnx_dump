@@ -1,0 +1,7 @@
+on fs
+    setprop ro.product.model.display TA-1121
+on fs
+    setprop ro.product.locale en-GB
+    setprop ro.camera.shuttersound.skuid 600ID
+    setprop ro.com.google.clientidbase android-hmd-rev2
+

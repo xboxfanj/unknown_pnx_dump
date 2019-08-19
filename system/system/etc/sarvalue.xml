@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hmsars>
+	<sar hwm="PNX" value="0.223" icnvalue="0.169"/>
+	<sar hwm="PNXR" value="0.223" icnvalue="0.169"/>
+	<sar hwm="PNXI" value="0.223" icnvalue="0.169"/>
+</hmsars>

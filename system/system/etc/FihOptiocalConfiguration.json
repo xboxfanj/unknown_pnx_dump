@@ -1,0 +1,53 @@
+{
+	"optical_config_version": "1.000.10",
+	"camera_fhdr_hdr_fmccl_p1": "1",
+	"camera_fhdr_hdr_fmccl_p2": "0",
+	"camera_fhdr_hdr_fsms": "0",
+	"camera_fhdr_hdr_gdsl": "4",
+	"camera_fhdr_hdr_grsl": "6",
+	"camera_fhdr_hdr_grt": "60",
+	"camera_fhdr_hdr_rrrt": "85",
+		
+	"camera_mhdr_hdr_fmccl_p1": "3",
+	"camera_mhdr_hdr_fmccl_p2": "0",
+	"camera_mhdr_hdr_fsms": "0",
+	"camera_mhdr_hdr_gdsl": "4",
+	"camera_mhdr_hdr_grsl": "6",
+	"camera_mhdr_hdr_grt": "60",
+	"camera_mhdr_hdr_rrrt": "85",
+
+	"camera_ans_int_main": "70,70,100",
+	"camera_ans_l_int_main": "1,1,1",
+	"camera_ans_sat_main": "50,50,50",
+	"camera_ans_sharpe_main": "0,0,0",
+	"camera_ans_th_main": "800,2800,6000",
+	"camera_ans_s_int_main": "65,65,100",
+	"camera_ans_yproc_int_main": "20,30,100",
+	"camera_ans_uvproc_int_main": "10,15,50",
+	"camera_ans_scene_contract_main": "10,10,10",
+
+	"camera_asdn_type_main": "0,0",
+	"camera_asdn_color_main": "15,30",
+	"camera_asdn_lumin_main": "10,15",
+	"camera_asdn_sharp_main": "0,0",
+	"camera_asdn_ring_main": "10,10",
+	"camera_asdn_th_main": "200,400",
+
+	"camera_ans_int_front": "30,30,30",
+	"camera_ans_l_int_front": "1,1,1",
+	"camera_ans_sat_front": "50,50,50",
+	"camera_ans_sharpe_front": "0,0,0",
+	"camera_ans_th_front": "640,1600,3000",
+	"camera_ans_s_int_front": "20,20,40",
+	"camera_ans_yproc_int_front": "20,20,20",
+	"camera_ans_uvproc_int_front": "20,20,20",
+	"camera_ans_scene_contract_front": "0,0,0",
+
+	"camera_asdn_type_front": "0",
+	"camera_asdn_color_front": "60",
+	"camera_asdn_lumin_front": "30",
+	"camera_asdn_sharp_front": "0",
+	"camera_asdn_ring_front": "40",
+	"camera_asdn_th_front": "51200"
+
+}

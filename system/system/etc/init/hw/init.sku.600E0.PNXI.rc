@@ -1,0 +1,6 @@
+on fs
+    setprop ro.product.model.display TA-1121
+on fs
+    setprop ro.product.locale en-GB
+    setprop ro.com.google.clientidbase android-hmd-rev2
+

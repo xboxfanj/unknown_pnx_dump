@@ -1,0 +1,3 @@
+on fs
+    setprop ro.product.locale en-GB
+    setprop ro.com.google.clientidbase android-hmd-rev2

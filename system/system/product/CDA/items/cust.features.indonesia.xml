@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <!-- THIS IS CREQ-51710 Indonesia TKDN SW Requirements V3.3  -->
+    <!-- CREQ-55676 add ringtone 'Simple' -->
+    <feature name="com.indonesia.feature.PRELOAD" /><!-- To preload media_id -->
+
+
+    <!-- THIS IS CREQ-55672 Indonesia TKDN SW Requirements Version 5.2 -->
+    <!-- LOCK DOWN ON 2018.05.08 -->
+
+	<!-- PNXP-4470 Support One hand mode by gestures  -->
+	<feature name="com.nbb.settings.onehandmode" />
+
+	<!-- PNXP-4477 Press power key three times continuously to initiate quick call to a predefined number  -->
+	<feature name="com.nbb.system.powerkey_quickcall" />
+
+	<!-- CREQ-70893  long press of Back key will turn on/off the torch feature  -->
+	<feature name="com.nbb.system.long_press_soft_key" />
+
+	<!-- CREQ-70896 Add “Hide Navigation Bar” feature  -->
+	<feature name="com.nbb.settings.hidenavigation" />
+
+	<!-- CREQ-70897 Add security password to shut down phone - AP_Settings  -->
+	<feature name="com.nbb.system.poweroff_encrypt" />
+
+	<!-- CREQ-70906 Add shut down animation - AP_Settings  -->
+	<feature name="com.nbb.system.poweroff_animation" />
+
+</permissions>

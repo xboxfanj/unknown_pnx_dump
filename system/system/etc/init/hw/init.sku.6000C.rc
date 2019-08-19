@@ -1,0 +1,6 @@
+on fs
+    setprop ro.product.device PNX
+    setprop ro.product.name PNX
+on fs
+	setprop ro.build.fingerprint Nokia/PNX/PNX:10/QKQ1.190611.002/00WW_4_075:user/dev-keys
+	setprop ro.build.description "PNX-user 10 QKQ1.190611.002 00WW_4_075 dev-keys"

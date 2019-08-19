@@ -1,0 +1,4 @@
+on property:sys.boot_completed=1
+    #Set fqc xml path for fqc test
+    setprop fqc.xmlpath vendor/etc/fqc_${ro.boot.hwmodel}_${ro.boot.simslot}.xml
+
